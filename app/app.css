@@ -1,0 +1,19 @@
+input.text-value {
+  color: green;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  height: 25px;
+  padding: 0 5px;
+}
+
+input.text-value:focus {
+  box-shadow: 0 0 2px blue inset;
+  border: 1px solid blue;
+  outline: none;
+}
+
+input.text-value.ng-invalid:not(.ng-pristine) {
+  border: 1px solid red;
+  color: #777;
+  box-shadow: none;
+}
